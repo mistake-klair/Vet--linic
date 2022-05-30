@@ -1,0 +1,223 @@
+
+.contacts{
+    position: absolute;
+    width: 194px;
+    height: 40px;
+    left: 230px;
+    top: 265px;
+
+    font-family: 'SchoolBook';
+    font-size: 40px;
+    line-height: 40px;
+
+}
+
+.red_pole_main{
+    position: absolute;
+    width: 484px;
+    height: 40px;
+    left: 230px;
+    top: 375px;
+
+    font-family: 'SchoolBook';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+
+
+    color: #080606;
+}
+
+.red_pole_GPS{
+    position: absolute;
+    width: 20px;
+    height: 29.03px;
+    left: 243px;
+    top: 445px;
+
+}
+
+.red_pole_GPS_adres{
+    position: absolute;
+    width: 318px;
+    height: 50px;
+    left: 296px;
+    top: 435px;
+
+    font-family: 'Futura New';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+
+    color: #59443F;
+}
+
+.red_pole_phone{
+    position: absolute;
+    left: 241px;
+    right: 86.15%;
+    top: 522px;
+    bottom: 49.36%;
+}
+
+.red_pole_number{
+    position: absolute;
+    width: 318px;
+    height: 20px;
+    left: 296px;
+    top: 524px;
+
+    font-family: 'Futura New';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+
+    color: #59443F;
+}
+
+.red_pole_worktime{
+    position: absolute;
+    width: 318px;
+    height: 20px;
+    left: 296px;
+    top: 585px;
+
+
+    font-family: 'Futura New';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+
+    color: #59443F;
+}
+
+.red_pole_clock_1{
+    position: absolute;
+    left: 12.55%;
+    right: 86.15%;
+    top: 582px;
+    bottom: 43.8%;
+    
+}
+
+.red_pole_clock_2{
+    position: absolute;
+    width: 8.71px;
+    height: 9.84px;
+    left: 252.34px;
+    top: 586.33px;
+
+
+}
+
+.map{
+    position: absolute;
+width: 950px;
+height: 526px;
+left: 740px;
+top: 375px;
+}
+
+.soviet_main_main{
+    position: absolute;
+width: 484px;
+height: 40px;
+left: 230px;
+top: 658px;
+
+font-family: 'SchoolBook';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 40px;
+
+
+color: #080606;
+}
+
+.soviet_main{
+    position: absolute;
+    width: 318px;
+    height: 50px;
+    left: 296px;
+    top: 718px;
+    
+    font-family: 'Futura New';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+
+    
+    color: #59443F;
+}
+
+.cosivet_number{
+    position: absolute;
+    width: 318px;
+    height: 20px;
+    left: 296px;
+    top: 807px;
+
+
+    font-family: 'Futura New';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+
+    color: #59443F;
+}
+
+.soviet_worktime{
+    position: absolute;
+    width: 318px;
+    height: 20px;
+    left: 296px;
+    top: 868px;
+    
+    font-family: 'Futura New';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+
+    
+    color: #59443F;
+}
+
+.soviet_GPS{
+    position: absolute;
+width: 20px;
+height: 29.03px;
+left: 243px;
+top: 728px;
+}
+
+.soviet_phone{
+    position: absolute;
+left: 12.55%;
+right: 241px;
+top: 805px;
+bottom: 23.15%;
+}
+
+.soviet_clock_1{
+    position: absolute;
+    left: 12.55%;
+    right: 86.15%;
+    top: 865px;
+    bottom: 17.59%;
+}
+
+.soviet_clock_2{
+    position: absolute;
+    width: 8.71px;
+    height: 9.84px;
+    left: 252.34px;
+    top: 869.33px;
+}
