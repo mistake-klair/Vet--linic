@@ -1,129 +1,136 @@
 
-.contacts{
-    position: absolute;
-    width: 194px;
-    height: 40px;
-    left: 230px;
-    top: 265px;
-
-    font-family: 'SchoolBook';
-    font-size: 40px;
-    line-height: 40px;
-
+@font-face
+{
+font-family: SchoolBook;
+src: url("Fonts/centuryschoolbookextended.otf");
 }
 
-.red_pole_main{
-    position: absolute;
-    width: 484px;
-    height: 40px;
-    left: 230px;
-    top: 375px;
+@font-face
+{
+    
+font-family: Futura New;
+src: url("Fonts/FuturaNewMedium-Reg.ttf");
+}
+.contacts_main_info_zero_contacts{
+position: absolute;
+width: 194px;
+height: 40px;
+left: 230px;
+top: 265px;
 
-    font-family: 'SchoolBook';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 40px;
+
+font-family: 'SchoolBook';
+font-size: 40px;
+line-height: 40px;
 
 
-    color: #080606;
+color: #080606;
 }
 
-.red_pole_GPS{
+
+.contacts_first_place_name{
+position: absolute;
+width: 484px;
+height: 40px;
+left: 230px;
+top: 375px;
+
+font-family: 'SchoolBook';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 40px;
+
+color: #080606;
+}
+.contacts_first_place_adress_svg{
+
     position: absolute;
     width: 20px;
     height: 29.03px;
     left: 243px;
-    top: 445px;
+    top: 449px;
 
 }
 
-.red_pole_GPS_adres{
-    position: absolute;
-    width: 318px;
-    height: 50px;
-    left: 296px;
-    top: 435px;
+.contacts_first_place_adress_text{
+position: absolute;
+width: 318px;
+height: 50px;
+left: 296px;
+top: 435px;
 
-    font-family: 'Futura New';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 20px;
+font-family: 'Futura New';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
 
-    color: #59443F;
+
+color: #59443F;
 }
 
-.red_pole_phone{
-    position: absolute;
-    left: 241px;
-    right: 86.15%;
-    top: 522px;
-    bottom: 49.36%;
+
+.contacts_first_place_phone_svg{
+position: absolute;
+left: 12.55%;
+right: 86.15%;
+top: 53.5%;
+bottom: 49.36%;
 }
 
-.red_pole_number{
-    position: absolute;
-    width: 318px;
-    height: 20px;
-    left: 296px;
-    top: 524px;
+.contacts_first_place_phone_text{
+position: absolute;
+width: 318px;
+height: 20px;
+left: 296px;
+top: 524px;
 
-    font-family: 'Futura New';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 20px;
+font-family: 'Futura New';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 20px;
 
-    color: #59443F;
+color: #59443F;
 }
 
-.red_pole_worktime{
+.contacts_first_place_clock_arrow{
     position: absolute;
-    width: 318px;
-    height: 20px;
-    left: 296px;
-    top: 585px;
-
-
-    font-family: 'Futura New';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 20px;
-
-    color: #59443F;
+width: 8.71px;
+height: 9.84px;
+left: 252.34px;
+top: 586.33px;
 }
 
-.red_pole_clock_1{
+.contacts_first_place_clock_circle{
     position: absolute;
-    left: 12.55%;
-    right: 86.15%;
-    top: 582px;
-    bottom: 43.8%;
-    
+left: 12.55%;
+right: 86.15%;
+top: 60.40%;
+bottom: 43.8%;
 }
 
-.red_pole_clock_2{
+.contacts_first_place_clock_text{
     position: absolute;
-    width: 8.71px;
-    height: 9.84px;
-    left: 252.34px;
-    top: 586.33px;
+width: 318px;
+height: 20px;
+left: 296px;
+top: 585px;
 
+font-family: 'Futura New';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 20px;
 
+color: #59443F;
 }
 
-.map{
-    position: absolute;
-width: 950px;
-height: 526px;
-left: 740px;
-top: 375px;
-}
 
-.soviet_main_main{
-    position: absolute;
+
+.contacts_second_place_name{
+position: absolute;
 width: 484px;
 height: 40px;
 left: 230px;
@@ -135,11 +142,18 @@ font-weight: 400;
 font-size: 30px;
 line-height: 40px;
 
-
 color: #080606;
 }
 
-.soviet_main{
+.contacts_second_place_adress_svg{
+position: absolute;
+width: 20px;
+height: 29.03px;
+left: 243px;
+top: 732px;
+}
+
+.contacts_second_place_adress_text{
     position: absolute;
     width: 318px;
     height: 50px;
@@ -150,36 +164,29 @@ color: #080606;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    line-height: 20px;
+    line-height: 30px;
 
-    
+ 
     color: #59443F;
 }
 
-.cosivet_number{
+.contacts_second_place_phone_svg{
+    position: absolute;
+    left: 12.55%;
+    right: 86.15%;
+    top: 83%;
+    bottom: 23.15%;
+    
+}
+
+.contacts_second_place_phone_text{
     position: absolute;
     width: 318px;
     height: 20px;
     left: 296px;
     top: 807px;
-
-
-    font-family: 'Futura New';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 20px;
-
-    color: #59443F;
-}
-
-.soviet_worktime{
-    position: absolute;
-    width: 318px;
-    height: 20px;
-    left: 296px;
-    top: 868px;
     
+
     font-family: 'Futura New';
     font-style: normal;
     font-weight: 400;
@@ -190,34 +197,80 @@ color: #080606;
     color: #59443F;
 }
 
-.soviet_GPS{
-    position: absolute;
-width: 20px;
-height: 29.03px;
-left: 243px;
-top: 728px;
+
+.contacts_second_place_clock_arrow{
+position: absolute;
+width: 8.71px;
+height: 9.84px;
+left: 252.34px;
+top: 869.33px;
 }
 
-.soviet_phone{
-    position: absolute;
+
+.contacts_second_place_clock_circle{
+
+position: absolute;
 left: 12.55%;
-right: 241px;
-top: 805px;
-bottom: 23.15%;
+right: 86.15%;
+top: 89.60%;
+bottom: 17.59%;
+}
+.contacts_second_place_clock_text{
+position: absolute;
+width: 318px;
+height: 20px;
+left: 296px;
+top: 868px;
+
+font-family: 'Futura New';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 20px;
+
+color: #59443F;
 }
 
-.soviet_clock_1{
-    position: absolute;
-    left: 12.55%;
-    right: 86.15%;
-    top: 865px;
-    bottom: 17.59%;
+.map{
+position: absolute;
+width: 950px;
+height: 526px;
+left: 740px;
+top: 375px;
 }
 
-.soviet_clock_2{
-    position: absolute;
-    width: 8.71px;
-    height: 9.84px;
-    left: 252.34px;
-    top: 869.33px;
+.rectangle{
+position: absolute;
+width: 229px;
+height: 50px;
+left: 1431px;
+top: 795px;
+
+background: #FFFFFF;
+box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.397126);
+border-radius: 33.5px;
+}
+
+.rectangle_text{
+position: absolute;
+width: 150px;
+height: 20px;
+left: 1457px;
+top: 810px;
+
+font-family: 'Futura New';
+font-size: 20px;
+line-height: 20px;
+
+text-align: center;
+
+color: #000000;
+}
+
+.pointer{
+position: absolute;
+width: 29px;
+height: 29px;
+left: 1597px;
+top: 806px;
 }
