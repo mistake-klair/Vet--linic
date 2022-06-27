@@ -274,3 +274,513 @@ height: 29px;
 left: 1597px;
 top: 806px;
 }
+
+/*Блог*/
+
+.blog_main_text{
+    position: absolute;
+    width: 184px;
+    height: 110px;
+    left: 230px;
+    top: 325px;
+
+    font-family: 'SchoolBook';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 110px;
+
+    color: #080606;
+}
+
+.blog_about{
+    position: absolute;
+    width: 61px;
+    height: 30px;
+    left: 230px;
+    top: 535px;
+
+    font-family: 'Futura New';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #C3B9B5;
+    
+}
+
+.blog_specialists{
+    position: absolute;
+    width: 400px;
+    height: 30px;
+    left: 230px;
+    top: 595px;
+
+    font-family: 'Futura New';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #C3B9B5;
+}
+
+.blog_news_1_img{
+    position: absolute;
+    width: 255px;
+    height: 255px;
+    left: 781px;
+    top: 325px;
+    
+    border-radius: 20px;
+}
+
+.blog_news_1_head{
+    position: absolute;
+    width: 528px;
+    height: 50px;
+    left: 1066px;
+    top: 355px;
+    
+    font-family: 'SchoolBook';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 50px;
+
+    color: #080606;
+}
+
+.blog_news_1_data{
+    position: absolute;
+    width: 200px;
+    height: 15px;
+    left: 1066px;
+    top: 425px;
+    
+    font-family: 'Futura New';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+
+    color: #C3B9B5;
+}
+
+.blog_news_1_text{
+    position: absolute;
+    width: 620px;
+    height: 100px;
+    left: 1066px;
+    top: 450px;
+    
+    font-family: 'Futura New';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+
+    color: #59443F;
+}
+
+.blog_news_2_img{
+    position: absolute;
+    width: 255px;
+    height: 255px;
+    left: 781px;
+    top: 640px;
+    
+    border-radius: 20px;
+}
+
+.blog_news_2_head{
+    position: absolute;
+    width: 528px;
+    height: 50px;
+    left: 1066px;
+    top: 670px;
+    
+    font-family: 'SchoolBook';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 50px;
+
+    color: #080606;
+}
+
+.blog_news_2_data{
+    position: absolute;
+    width: 200px;
+    height: 15px;
+    left: 1066px;
+    top: 740px;
+    
+    font-family: 'Futura New';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+
+    color: #C3B9B5;
+}
+
+.blog_news_2_text{
+    position: absolute;
+    width: 620px;
+    height: 100px;
+    left: 1066px;
+    top: 765px;
+    
+    font-family: 'Futura New';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+
+    color: #59443F;
+}
+
+.blog_news_3_img{
+    position: absolute;
+    width: 255px;
+    height: 255px;
+    left: 781px;
+    top: 955px;
+    
+    border-radius: 20px;
+}
+
+.blog_news_3_head{
+    position: absolute;
+    width: 528px;
+    height: 50px;
+    left: 1066px;
+    top: 985px;
+    
+    font-family: 'SchoolBook';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 50px;
+
+    color: #080606;
+}
+
+.blog_news_3_data{
+    position: absolute;
+    width: 200px;
+    height: 15px;
+    left: 1066px;
+    top: 1055px;
+    
+    font-family: 'Futura New';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+
+    color: #C3B9B5;
+}
+
+.blog_news_3_text{
+    position: absolute;
+    width: 620px;
+    height: 100px;
+    left: 1066px;
+    top: 1080px;
+    
+    font-family: 'Futura New';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+
+    color: #59443F;
+}
+
+.blog_news_4_img{
+    position: absolute;
+    width: 255px;
+    height: 255px;
+    left: 781px;
+    top: 1270px;
+    
+    border-radius: 20px;
+}
+
+.blog_news_4_head{
+    position: absolute;
+    width: 528px;
+    height: 50px;
+    left: 1066px;
+    top: 1300px;
+    
+    font-family: 'SchoolBook';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 50px;
+
+    color: #080606;
+}
+
+.blog_news_4_data{
+    position: absolute;
+    width: 200px;
+    height: 15px;
+    left: 1066px;
+    top: 1375px;
+    
+    font-family: 'Futura New';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+
+    color: #C3B9B5;
+}
+
+.blog_news_4_text{
+    position: absolute;
+    width: 620px;
+    height: 100px;
+    left: 1066px;
+    top: 1395px;
+    
+    font-family: 'Futura New';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+
+    color: #59443F;
+}
+
+.blog_news_5_img{
+    position: absolute;
+    width: 255px;
+    height: 255px;
+    left: 781px;
+    top: 1585px;
+    
+    border-radius: 20px;
+}
+
+.blog_news_5_head{
+    position: absolute;
+    width: 528px;
+    height: 50px;
+    left: 1066px;
+    top: 1615px;
+    
+    font-family: 'SchoolBook';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 50px;
+
+    color: #080606;
+}
+
+.blog_news_5_data{
+    position: absolute;
+    width: 200px;
+    height: 15px;
+    left: 1066px;
+    top: 1685px;
+    
+    font-family: 'Futura New';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+
+    color: #C3B9B5;
+}
+
+.blog_news_5_text{
+    position: absolute;
+    width: 620px;
+    height: 100px;
+    left: 1066px;
+    top: 1710px;
+    
+    font-family: 'Futura New';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+
+    color: #59443F;
+}
+
+.pages{
+    
+}
+
+.pages_1_1{
+    position: absolute;
+    width: 12px;
+    height: 30px;
+    left: 1594px;
+    top: 237px;
+    
+    font-family: 'Futura New';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+
+    text-align: center;
+    
+
+    color: #080606;
+}
+
+.pages_1_2{
+    position: absolute;
+    width: 12px;
+    height: 30px;
+    left: 1622px;
+    top: 237px;
+    
+    font-family: 'Futura New';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+
+    text-align: center;
+
+    color: #C3B9B5;
+}
+
+.pages_1_3{
+    position: absolute;
+    width: 12px;
+    height: 30px;
+    left: 1650px;
+    top: 237px;
+    
+    font-family: 'Futura New';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+
+    text-align: center;
+
+    color: #C3B9B5;
+}
+
+.pages_1_4{
+    position: absolute;
+width: 12px;
+height: 30px;
+left: 1678px;
+top: 237px;
+
+font-family: 'Futura New';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+
+text-align: right;
+
+color: #C3B9B5;
+}
+
+.pages_2_1{
+    position: absolute;
+    width: 12px;
+    height: 30px;
+    left: 1594px;
+    top: 1898px;
+    
+    font-family: 'Futura New';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+
+    text-align: center;
+    
+
+    color: #080606;
+}
+
+.pages_2_2{
+    position: absolute;
+    width: 12px;
+    height: 30px;
+    left: 1622px;
+    top: 1898px;
+    
+    font-family: 'Futura New';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+
+    text-align: center;
+
+    color: #C3B9B5;
+}
+
+.pages_2_3{
+    position: absolute;
+    width: 12px;
+    height: 30px;
+    left: 1650px;
+    top: 1898px;
+    
+    font-family: 'Futura New';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+
+    text-align: center;
+
+    color: #C3B9B5;
+}
+
+.pages_2_4{
+    position: absolute;
+width: 12px;
+height: 30px;
+left: 1678px;
+top: 1898px;
+
+font-family: 'Futura New';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+
+text-align: right;
+
+color: #C3B9B5;
+}
+
+
+/*Новости*/
+
+.news_main_text{
+    position: absolute;
+width: 322px;
+height: 220px;
+left: 230px;
+top: 325px;
+
+font-family: 'SchoolBook';
+font-style: normal;
+font-weight: 400;
+font-size: 80px;
+line-height: 80px;
+
+color: #080606;
+}
