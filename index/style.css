@@ -1,0 +1,353 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.empty {
+    height: 0;
+    width: 0;
+}
+.header__logo {
+    vertical-align: top;
+    height: 100px;
+    width: 100px;
+}
+header {
+    margin: 45px 80px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__nav ul{
+    display: flex;
+    list-style: none;
+    gap: 80px;
+}
+.header__nav ul a {
+    font-family: 'Futura New', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #C3B9B5;
+    text-decoration: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.prescreen {
+    position: relative;
+    min-height: 600px;
+}
+.container{
+    max-width: 1400px;
+    padding: 0 25px;
+    width: 100%;
+    position: relative;
+    margin: auto;
+}
+.prescreen__bg-img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 500px;
+    height: 500px;
+}
+.prescreen__title {
+    padding-top: 100px;
+    font-family: 'SchoolBook',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 70px;
+    /* or 138% */
+
+
+    /* text */
+
+    color: #080606;
+
+
+}
+.prescreen__btn{
+    background: #FFC59E;
+    box-shadow: 0 4px 20px #FFC59E;
+    border-radius: 33px;
+    padding: 24px 77px;
+    font-family: 'Futura New',serif;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    /* identical to box height, or 100% */
+
+
+    color: #FFFFFF;
+    display: inline-block;
+
+    margin-top: 40px;
+
+}
+.prescreen__links {
+    display: flex;
+    gap: 40px;
+    margin-top: 80px;
+}
+.service {
+    margin-top: 70px;
+}
+.service .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    align-items: center;
+}
+.service__card {
+    margin: auto;
+    padding:24px;
+    width: 320px;
+    height: 220px;
+    position: relative;
+    background: #FFFFFF;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    text-decoration: none;
+    transition: 0.1s;
+
+}
+.service__card:hover {
+    position: relative;
+    z-index: 1;
+    border: 1px solid #C3B9B5;
+    transform: scale(1.1);
+
+}
+.service__card__title {
+    font-family: 'SchoolBook',serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    /* identical to box height, or 133% */
+
+
+    /* brown */
+
+    color: #59443F;
+
+}
+.service__card__amount {
+    position: absolute;
+    bottom: 24px;
+    left: 24px;
+    text-decoration: none;
+    font-family: 'Futura New',serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    /* identical to box height, or 100% */
+
+
+    /* brown */
+
+    color: #59443F;
+
+}
+.service__card__img {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    right: 24px;
+    bottom: 24px;
+}
+.howWork div {
+    text-align: center;
+}
+.howWork__number {
+    margin-top: 80px;
+    font-family: 'SchoolBook', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 144px;
+    line-height: 110px;
+    /* identical to box height, or 76% */
+
+
+    /* brown */
+
+    color: #59443F;
+}
+.howWork__text{
+    position: relative;
+    font-family: 'Futura New',serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 110px;
+    /* or 138% */
+
+
+    /* text */
+
+    color: #080606;
+
+}
+.howWork__Bird {
+    height: 300px;
+    width: 300px;
+    margin-top: -120px;
+    margin-right: -25%;
+}
+.howWork {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.whyWe__title {
+    text-align: center;
+    font-family: 'SchoolBook',serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    /* identical to box height, or 100% */
+
+
+    /* text */
+
+    color: #080606;
+
+}
+.whyWe__cards{
+    margin-top: 90px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+}
+.whyWe__card {
+    margin: auto;
+    position: relative;
+    width: 400px;
+    height: 200px;
+}
+.whyWe__card__title{
+    font-family: 'SchoolBook',serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    /* identical to box height, or 133% */
+
+
+    /* text */
+
+    color: #080606;
+}
+.whyWe__card__img{
+    position: absolute;
+    top:70px;
+    left: 10px;
+    height: 90px;
+}
+.whyWe__card__text {
+    margin-left: 150px;
+    margin-top: 20px;
+    font-family: 'Futura New',serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    /* or 150% */
+
+
+    /* brown */
+
+    color: #59443F;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+footer {
+    background: #59443F;
+}
+.footer__container {
+    padding: 25px;
+    max-width: 1506px;
+    margin: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 0.8fr 0.8fr 0.7fr 1.1fr 1.6fr;
+    grid-template-rows: 0.6fr 0fr 1.0fr;
+    gap: 0px 0px;
+    grid-template-areas:
+    "logo logo logo logo apps"
+    "nav nav nav nav links"
+    "nav nav nav nav email";
+}
+.footer__logo {
+    grid-area: logo;
+}
+footer nav {
+    margin-top: 20px;
+    grid-area: nav;
+    display: flex;
+    gap: 70px;
+
+}
+footer nav ul {
+    list-style: none;
+    max-width: 200px;
+}
+footer nav ul a {
+    font-family: 'Futura New', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    /* or 150% */
+    text-decoration: none;
+
+
+    color: #FFFFFF;
+
+}
+
+.footer__apps {
+
+    grid-area: apps;
+    display: flex;
+    gap: 13px;
+    align-items: center;
+}
+.footer__links {
+    grid-area: links;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.footer__emails {
+    margin-top: 20px;
+    grid-area: email;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Futura New', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    /* or 150% */
+
+
+    color: #FFFFFF;
+
+}
