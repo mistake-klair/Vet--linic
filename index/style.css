@@ -234,9 +234,10 @@ header {
 }
 .whyWe__card {
     margin: auto;
+    margin-top: 0;
     position: relative;
     width: 400px;
-    height: 200px;
+    height: auto;
 }
 .whyWe__card__title{
     font-family: 'SchoolBook',serif;
