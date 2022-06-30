@@ -40,7 +40,7 @@
     }
     
     .menu{
-        width: 25%;
+        width: 33%;
         max-width: 600px;
         background-color: #FFFEFE;
         padding-left: 10%;
@@ -79,6 +79,8 @@
 
     
     .content{
+        max-width: 930px; 
+        width: 67%;
         max-width: 930px;
         width: 75%;
         background-color: #FFFEFE;
