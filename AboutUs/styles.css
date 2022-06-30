@@ -146,6 +146,7 @@
     }   
 
     .block_img{
+        margin: 0 10px 10px;
         width: 30%;
         align-items: center;
         display: flex;
@@ -177,6 +178,7 @@
     }
 
     .block_content{
+        margin: 0 10px 10px;
         align-items: left;
         display: flex;
         flex-direction: column;
