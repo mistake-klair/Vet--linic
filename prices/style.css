@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.empty {
+    height: 0;
+    width: 0;
+}
+.header__logo {
+    vertical-align: top;
+    height: 100px;
+    width: 100px;
+}
+header {
+    margin: 45px 80px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__nav ul{
+    display: flex;
+    list-style: none;
+    gap: 80px;
+}
+.header__nav ul a {
+    font-family: 'Futura New', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #C3B9B5;
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1400px;
+    padding: 0 25px;
+    width: 100%;
+    position: relative;
+    margin: auto;
+}
+.prices__title{
+    font-family: 'SchoolBook';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    /* or 133% */
+
+    /* text */
+
+    color: #080606;
+
+}
+.prices__table{
+    width: 100%;
+    margin: 20px 0;
+ }
+
+.prices__table tr {
+    padding: 0 20px;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Futura New';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    /* or 100% */
+    /* text */
+
+    color: #080606;
+
+}
+.prices__table tr:nth-child(2n+1){
+    background: #EDE9E8;
+}
+.prices__table tr td {
+    display: flex;
+    align-items: center;
+}
+.prices__title b {
+    font-size: 30px;
+
+}
+footer {
+    background: #59443F;
+}
+.footer__container {
+    padding: 25px;
+    max-width: 1506px;
+    margin: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 0.8fr 0.8fr 0.7fr 1.1fr 1.6fr;
+    grid-template-rows: 0.6fr 0fr 1.0fr;
+    gap: 0px 0px;
+    grid-template-areas:
+    "logo logo logo logo apps"
+    "nav nav nav nav links"
+    "nav nav nav nav email";
+}
+.footer__logo {
+    grid-area: logo;
+}
+footer nav {
+    margin-top: 20px;
+    grid-area: nav;
+    display: flex;
+    gap: 70px;
+
+}
+footer nav ul {
+    list-style: none;
+    max-width: 200px;
+}
+footer nav ul a {
+    font-family: 'Futura New', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    /* or 150% */
+    text-decoration: none;
+
+
+    color: #FFFFFF;
+
+}
+
+.footer__apps {
+
+    grid-area: apps;
+    display: flex;
+    gap: 13px;
+    align-items: center;
+}
+.footer__links {
+    grid-area: links;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.footer__emails {
+    margin-top: 20px;
+    grid-area: email;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Futura New', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    /* or 150% */
+
+
+    color: #FFFFFF;
+
+}
