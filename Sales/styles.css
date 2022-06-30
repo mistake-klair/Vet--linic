@@ -49,7 +49,7 @@
     .menu{
         margin: 0px 60px 0px ;       
         width: 33%;
-        max-width: 400px;
+        max-width: 450px
         background-color: #FFFEFE;
         padding-left: 10%;
         padding-right: 100px;
@@ -61,7 +61,7 @@
         font-style: normal;
         font-weight: 400;
         font-size: 45px;
-        line-height: 110px;
+        line-height: 90px;
         color: #080606;
         margin-bottom: 100px;
     }
